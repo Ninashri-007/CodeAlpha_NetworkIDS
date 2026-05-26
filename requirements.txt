@@ -1,0 +1,5 @@
+suricata
+wireshark
+nmap
+curl
+net-tools
