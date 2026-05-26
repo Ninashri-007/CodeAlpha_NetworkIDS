@@ -1,0 +1,27 @@
+05/26/2026-10:53:20.773807  [**] [1:1000001:1] ICMP Ping Detected [**] [Classification: (null)] [Priority: 3] {ICMP} 10.0.2.15:8 -> 142.251.222.206:0
+05/26/2026-10:53:20.804389  [**] [1:1000001:1] ICMP Ping Detected [**] [Classification: (null)] [Priority: 3] {ICMP} 142.251.222.206:0 -> 10.0.2.15:0
+05/26/2026-10:53:20.804681  [**] [1:1000005:1] DNS Traffic Detected [**] [Classification: (null)] [Priority: 3] {UDP} 10.0.2.15:38331 -> 8.8.8.8:53
+05/26/2026-10:53:50.225288  [**] [1:1000005:1] DNS Traffic Detected [**] [Classification: (null)] [Priority: 3] {UDP} 10.0.2.15:49315 -> 8.8.8.8:53
+05/26/2026-10:53:50.284651  [**] [1:1000002:1] HTTP Traffic Detected [**] [Classification: (null)] [Priority: 3] {TCP} fd17:625c:f037:0002:5fbd:3963:1227:fc0e:44228 -> 2606:4700:0010:0000:0000:0000:ac42:93f3:80
+05/26/2026-10:53:50.284651  [**] [1:1000004:1] TCP SYN Scan Detected [**] [Classification: (null)] [Priority: 3] {TCP} fd17:625c:f037:0002:5fbd:3963:1227:fc0e:44228 -> 2606:4700:0010:0000:0000:0000:ac42:93f3:80
+05/26/2026-10:53:50.486143  [**] [1:1000002:1] HTTP Traffic Detected [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.2.15:39186 -> 172.66.147.243:80
+05/26/2026-10:53:50.486143  [**] [1:1000004:1] TCP SYN Scan Detected [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.2.15:39186 -> 172.66.147.243:80
+05/26/2026-10:53:55.503021  [**] [1:1000001:1] ICMP Ping Detected [**] [Classification: (null)] [Priority: 3] {IPv6-ICMP} fe80:0000:0000:0000:0a00:27ff:fe36:d2cb:135 -> fe80:0000:0000:0000:0000:0000:0000:0002:0
+05/26/2026-10:53:55.503940  [**] [1:1000001:1] ICMP Ping Detected [**] [Classification: (null)] [Priority: 3] {IPv6-ICMP} fe80:0000:0000:0000:0000:0000:0000:0002:136 -> fe80:0000:0000:0000:0a00:27ff:fe36:d2cb:0
+sudo tail -f /var/log/suricata/fast.log
+                           
+05/26/2026-11:00:25.578990  [**] [1:1000001:1] ICMP Ping Detected [**] [Classification: (null)] [Priority: 3] {IPv6-ICMP} fe80:0000:0000:0000:0a00:27ff:fe36:d2cb:133 -> ff02:0000:0000:0000:0000:0000:0000:0002:0
+05/26/2026-11:00:25.584543  [**] [1:1000001:1] ICMP Ping Detected [**] [Classification: (null)] [Priority: 3] {IPv6-ICMP} fe80:0000:0000:0000:0000:0000:0000:0002:134 -> ff02:0000:0000:0000:0000:0000:0000:0001:0
+05/26/2026-11:00:25.594977  [**] [1:1000001:1] ICMP Ping Detected [**] [Classification: (null)] [Priority: 3] {IPv6-ICMP} fe80:0000:0000:0000:0a00:27ff:fe36:d2cb:143 -> ff02:0000:0000:0000:0000:0000:0000:0016:0
+05/26/2026-11:00:58.035557  [**] [1:1000005:1] DNS Traffic Detected [**] [Classification: (null)] [Priority: 3] {UDP} 10.0.2.15:40298 -> 8.8.8.8:53
+05/26/2026-11:00:58.111315  [**] [1:1000001:1] ICMP Ping Detected [**] [Classification: (null)] [Priority: 3] {ICMP} 10.0.2.15:8 -> 142.251.223.14:0
+05/26/2026-11:00:58.140501  [**] [1:1000005:1] DNS Traffic Detected [**] [Classification: (null)] [Priority: 3] {UDP} 10.0.2.15:42810 -> 8.8.8.8:53
+05/26/2026-11:00:58.140128  [**] [1:1000001:1] ICMP Ping Detected [**] [Classification: (null)] [Priority: 3] {ICMP} 142.251.223.14:0 -> 10.0.2.15:0
+05/26/2026-11:07:55.513318  [**] [1:1000001:1] ICMP Ping Detected [**] [Classification: (null)] [Priority: 3] {IPv6-ICMP} fe80:0000:0000:0000:0000:0000:0000:0002:134 -> ff02:0000:0000:0000:0000:0000:0000:0001:0
+05/26/2026-11:07:55.523156  [**] [1:1000001:1] ICMP Ping Detected [**] [Classification: (null)] [Priority: 3] {IPv6-ICMP} fe80:0000:0000:0000:0a00:27ff:fe36:d2cb:143 -> ff02:0000:0000:0000:0000:0000:0000:0016:0
+05/26/2026-11:11:27.294432  [**] [1:1000001:1] ICMP Ping Detected [**] [Classification: (null)] [Priority: 3] {IPv6-ICMP} fe80:0000:0000:0000:0000:0000:0000:0002:134 -> ff02:0000:0000:0000:0000:0000:0000:0001:0
+05/26/2026-11:11:27.307607  [**] [1:1000001:1] ICMP Ping Detected [**] [Classification: (null)] [Priority: 3] {IPv6-ICMP} fe80:0000:0000:0000:0a00:27ff:fe36:d2cb:143 -> ff02:0000:0000:0000:0000:0000:0000:0016:0
+05/26/2026-11:18:01.743187  [**] [1:1000001:1] ICMP Ping Detected [**] [Classification: (null)] [Priority: 3] {IPv6-ICMP} fe80:0000:0000:0000:0000:0000:0000:0002:134 -> ff02:0000:0000:0000:0000:0000:0000:0001:0
+05/26/2026-11:18:01.755571  [**] [1:1000001:1] ICMP Ping Detected [**] [Classification: (null)] [Priority: 3] {IPv6-ICMP} fe80:0000:0000:0000:0a00:27ff:fe36:d2cb:143 -> ff02:0000:0000:0000:0000:0000:0000:0016:0
+05/26/2026-11:23:18.715943  [**] [1:1000001:1] ICMP Ping Detected [**] [Classification: (null)] [Priority: 3] {IPv6-ICMP} fe80:0000:0000:0000:0000:0000:0000:0002:134 -> ff02:0000:0000:0000:0000:0000:0000:0001:0
+05/26/2026-11:23:18.731474  [**] [1:1000001:1] ICMP Ping Detected [**] [Classification: (null)] [Priority: 3] {IPv6-ICMP} fe80:0000:0000:0000:0a00:27ff:fe36:d2cb:143 -> ff02:0000:0000:0000:0000:0000:0000:0016:0
